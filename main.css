@@ -17,7 +17,7 @@ body {
 
 .container {
   width: 90%;
-  margin: 20vh auto 5vh;
+  margin: 20vh auto 10vh;
   text-align: center;
   line-height: 1.5;
 }
@@ -29,8 +29,7 @@ body {
 }
 
 .quote:hover {
-  text-shadow: 0 0 5px navajowhite;
-  font-weight: bold;
+  text-shadow: 0 0 5px hotpink;
 }
 
 .wiseMan {
@@ -42,7 +41,23 @@ body {
 }
 
 .wiseMan:hover {
-  text-shadow: 0 0 5px navajowhite;
+  text-shadow: 0 0 15px hotpink;
   font-size: 3vh;
   font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  right: 2vw;
+  bottom: 2vh;
+}
+
+img {
+  box-shadow: 0 0 5px 3px navajowhite;
+  transition: all 0.25s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 5px 5px navajowhite;
 }
